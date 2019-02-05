@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Quiz About Me!</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="music.css">
+
+    <link rel="stylesheet" href="movies-TV.css">
+
+    <link rel="stylesheet" href="history-politics.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-light" id="N1">
+      <span class="navbar-text" id="H1">
+        HOW WELL DO YOU KNOW ME?
+      </span>
+    </nav>
+    <div class="container" id="C1">
+      <h1 id="T1">Enter your name:</h1>
+      <input type="text" id="I1" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+      <button type="button" class="btn btn-outline-danger" id="B1">Start!</button>
+    </div>
+
+    <div class="container" id="C2">
+      <h1 id="T3">Section 1: Music</h1>
+      <div id="questions">
+        <p>1) Enter the <u>LAST NAME</u> of my favorite FEMALE solo artist:  <input id="I2" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></p>
+
+        <p class="Zmb mt">2) Which one of these female artists is in my top 3 favorite female solo artists?</p><span class="options"><input type="radio" name="nonFavArtist" value="F1" class="Q2"> Lorde</span>
+        <span class="options"><input type="radio" name="nonFavArtist" value="F2" class="Q2"> Selena Gomez</span> <span class="options"><input type="radio" name="nonFavArtist" value="C" class="Q2"> Lana Del Ray</span>
+        <span class="options"><input type="radio" name="nonFavArtist" value="F3" class="Q2"> Lady Gaga</span>
+
+        <p class="Zmb mt">3) Which one of these songs is <b><u>NOT</u></b> in my top 3 favorite songs of all time?</p><span class="options"><input type="radio" name="nonTop3" value="C" class="Q3"> <i>Castle on the Hill </i>by Ed Sheeran</span>
+        <span class="options"><input type="radio" name="nonTop3" value="F1" class="Q3"> <i>Closer</i> by The Chainsmokers</span> <span class="options"><input type="radio" name="nonTop3" value="F2" class="Q3"> <i>Summertime Sadness</i> by Lana Del Ray</span>
+        <span class="options"><input type="radio" name="nonTop3" value="F3" class="Q3"> <i>Blank Space</i> by Taylor Swift</span>
+      
+        <p class="Zmb mt">4) What is my favorite song released in the 20th century?</p><span class="options"><input type="radio" name="lastCentury" value="F1" class="Q4"> <i>Thriller</i> by Michael Jackson</span>
+        <span class="options"><input type="radio" name="lastCentury" value="F2" class="Q4"> <i>Bohemian Rapsody</i> by Queen</span> <span class="options"><input type="radio" name="lastCentury" value="F3" class="Q4"> <i>Stayin' Alive</i> by the Bee Gees</span>
+        <span class="options"><input type="radio" name="lastCentury" value="C" class="Q4"> <i>Ain't No Mountain High Enough</i> by Marvin Gaye & Tammi Terrell</span>
+      
+        <p class="Zmb mt">5) Fill in the blank: I ______ classical music.</p><span class="options"><input type="radio" name="CM" value="F1" class="Q5"> like</span>
+        <span class="options"><input type="radio" name="CM" value="F2" class="Q5"> love</span> <span class="options"><input type="radio" name="CM" value="F3" class="Q5"> dislike</span>
+        <span class="options"><input type="radio" name="CM" value="C" class="Q5"> hate</span>
+
+        
+      </div>
+        <div class="buttons">
+          <a href="#" class="previous" id="A1">&laquo; Previous</a>
+          <a href="#" class="next" id="A2">Next &raquo;</a>
+        </div>
+    </div>
+    <div class="container" id="C3">
+      <h1 id="T3">Section 2: Movies & TV</h1>
+      <div id="questions">
+        <p>6) Enter the <u>LAST NAME</u> of my favorite film director:  <input id="I3" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></p>
+
+        <p class="Zmb mt">7) Which one of these movies is <b><u>NOT</u></b> in my top 10 favorite movies of all time?</p><span class="options"><input type="radio" name="nonTop10" value="F1" class="Q7"> <i>The Shawshank Redemption</i></span>
+        <span class="options"><input type="radio" name="nonTop10" value="C" class="Q7"> <i>Star Wars Episode IV: A New Hope</i></span> <span class="options"><input type="radio" name="nonTop10" value="F2" class="Q7"> <i>Lagaan</i></span>
+        <span class="options"><input type="radio" name="nonTop10" value="F3" class="Q7"> <i>American History X</i> </span>
+      
+        <p class="Zmb mt">8) What is my favorite comedy movie?</p><span class="options"><input type="radio" name="comedy" value="C" class="Q8"> <i>Tropic Thunder</i></span>
+        <span class="options"><input type="radio" name="comedy" value="F1" class="Q8"> <i>The Other Guys</i></span> <span class="options"><input type="radio" name="comedy" value="F2" class="Q8"> <i>The Dictator</i></span>
+        <span class="options"><input type="radio" name="comedy" value="F3" class="Q8"> <i>The Interview</i></span>
+      
+        <p class="Zmb mt">9) Which one of these acclaimed film trilogies do I believe is the most overrated and boring?</p><span class="options"><input type="radio" name="trilogies" value="C" class="Q9"> <i>The Lord of the Rings </i>trilogy</span>
+        <span class="options"><input type="radio" name="trilogies" value="F1" class="Q9"> The original <i>Star Wars </i>trilogy</span> <span class="options"><input type="radio" name="trilogies" value="F2" class="Q9"> <i>The Dark Knight </i>trilogy</span>
+        <span class="options"><input type="radio" name="trilogies" value="F3" class="Q9"> The <i>Toy Story </i>trilogy</span>
+
+        <p class="Zmb mt">10) What is the best performance that I have seen by an actor in any movie?</p><span class="options"><input type="radio" name="performance" value="C" class="Q10"> Heath Ledger in <i>The Dark Knight</i></span>
+        <span class="options"><input type="radio" name="performance" value="F1" class="Q10"> Edward Norton in <i>American History X</i></span> <span class="options"><input type="radio" name="performance" value="F2" class="Q10"> Russell Crowe in <i>Gladiator</i></span>
+        <span class="options"><input type="radio" name="performance" value="F3" class="Q10"> Christoph Waltz in <i>Inglorious Basterds</i></span>
+
+        <p class="Zmb mt">11) Which house do I serve?</p><span class="options"><input type="radio" name="house" value="F1" class="Q11"> The one with the LION</span>
+        <span class="options"><input type="radio" name="house" value="F2" class="Q11"> The one with the DRAGON</span> <span class="options"><input type="radio" name="house" value="C" class="Q11"> The one with the DIREWOLF</span>
+        <span class="options"><input type="radio" name="house" value="F3" class="Q11"> The one with the KRAKEN</span>
+
+        <p class="Zmb mt">12) Which element do I bend from my all time favorite TV show?</p><span class="options"><input type="radio" name="element" value="F1" class="Q12"> Air</span>
+        <span class="options"><input type="radio" name="element" value="F2" class="Q12"> Water</span> <span class="options"><input type="radio" name="element" value="F3" class="Q12"> Earth</span>
+        <span class="options"><input type="radio" name="element" value="C" class="Q12"> Fire</span>
+
+        <p class="Zmb mt">13) What is the best performance that I have seen by an actress in a drama or comedy series?</p><span class="options"><input type="radio" name="actressPerformance" value="F1" class="Q13"> Robin Wright in <i>House of Cards</i></span>
+        <span class="options"><input type="radio" name="actressPerformance" value="F2" class="Q13"> Jenna Fischer in <i>The Office</i></span> <span class="options"><input type="radio" name="actressPerformance" value="C" class="Q13"> Jane Kaczmarek in <i>Malcolm in the Middle</i></span>
+        <span class="options"><input type="radio" name="actressPerformance" value="F3" class="Q13"> Lena Heady in <i>Game of Thrones</i></span>
+        
+        <p class="Zmb mt">14) What is the best performance that I have seen by an actor in a drama or comedy series?</p><span class="options"><input type="radio" name="actorPerformance" value="F1" class="Q14"> David Cross in <i>Arrested Development</i></span>
+        <span class="options"><input type="radio" name="actorPerformance" value="F2" class="Q14"> Bryan Cranston in <i>Breaking Bad</i></span> <span class="options"><input type="radio" name="actorPerformance" value="C" class="Q14"> Kevin Spacey in <i>House of Cards</i></span>
+        <span class="options"><input type="radio" name="actorPerformance" value="F3" class="Q14"> Rainn Wilson in <i>The Office</i></span>
+        
+        <p class="Zmb mt">15) I have 3 main celebrity crushes. Which of these actresses is <b><u>NOT</u></b> one of them?</p><span class="options"><input type="radio" name="CC" value="F1" class="Q15"> Emilia Clarke</span>
+        <span class="options"><input type="radio" name="CC" value="F2" class="Q15"> Margot Robbie</span> <span class="options"><input type="radio" name="CC" value="F3" class="Q15"> Elizabeth Olsen</span>
+        <span class="options"><input type="radio" name="CC" value="C" class="Q15"> Jennifer Lawrence</span> 
+    </div>
+      <div class="buttons">
+        <a href="#" class="previous" id="A3">&laquo; Previous</a>
+        <a href="#" class="next" id="A4">Next &raquo;</a>
+      </div>
+    </div>
+    <div class="container" id="C4">
+      <h1 id="T3">Section 3: History & Politics</h1>
+      <div id="questions">
+        <p class="Zmb mt">16) What do I think of Christopher Columbus?</p><span class="options"><input type="radio" name="columbus" value="F1" class="Q16"> He was an evil & genocidal; every statue of him should be taken down and he shouldn't be celebrated to the slightest.</span>
+        <span class="options"><input type="radio" name="columbus" value="F2" class="Q16"> He didn't do anything special. </span> <span class="options"><input type="radio" name="columbus" value="C" class="Q16"> He was a brave adventurer that should be held up as a hero, whilst acknowledging he flawed in the same way many members throughout history were. </span>
+        <span class="options"><input type="radio" name="columbus" value="F3" class="Q16"> He did absolutely nothing wrong and paved the way for western civilization.</span>
+
+        <p class="Zmb mt">17) Who is my favorite founding father?</p><span class="options"><input type="radio" name="FF" value="F1" class="Q17"> George Washington</span>
+        <span class="options"><input type="radio" name="FF" value="F2" class="Q17"> Alexander Hamilton</span> <span class="options"><input type="radio" name="FF" value="F3" class="Q17"> Benjamin Franklin</span>
+        <span class="options"><input type="radio" name="FF" value="C" class="Q17"> Thomas Jefferson</span>
+      
+        <p class="Zmb mt">18) Which one of these men is <b><u>NOT</u></b> in my top 5 favorite presidents?</p><span class="options"><input type="radio" name="presidents" value="C" class="Q18"> Theodore Roosevelt</span>
+        <span class="options"><input type="radio" name="presidents" value="F1" class="Q18"> Abraham Lincoln</span> <span class="options"><input type="radio" name="presidents" value="F2" class="Q18"> Ronald Reagan</span>
+        <span class="options"><input type="radio" name="presidents" value="F3" class="Q18"> Calvin Coolidge</span>
+      
+        <p class="Zmb mt">19) Who is my favorite Democratic president?</p><span class="options"><input type="radio" name="demPresident" value="F1" class="Q19"> Woodrow Wilson</span>
+        <span class="options"><input type="radio" name="demPresident" value="F2" class="Q19"> Barack Obama</span> <span class="options"><input type="radio" name="demPresident" value="C" class="Q19"> John F. Kennedy</span>
+        <span class="options"><input type="radio" name="demPresident" value="F3" class="Q19"> Harry S. Truman</span>
+
+        <p class="Zmb mt">20) Enter the <u>LAST NAME</u> of who is my biggest influence in terms of me developing my political views:  <input id="I4" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></p>
+
+        <p class="Zmb mt">21) Enter the <u>FIRST NAME</u> of my biggest political celebrity crush:  <input id="I5" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></p>
+
+        <p class="Zmb mt">22) What political label do I attribute to myself?</p><span class="options"><input type="radio" name="politicalLabel" value="C" class="Q22"> Centre-right</span>
+        <span class="options"><input type="radio" name="politicalLabel" value="F1" class="Q22"> Democratic Socialist</span> <span class="options"><input type="radio" name="politicalLabel" value="F2" class="Q22"> Liberal</span>
+        <span class="options"><input type="radio" name="politicalLabel" value="F3" class="Q22"> Minarchist libertarian</span>
+
+        <p class="Zmb mt">23) Who is my favorite justice on the Supreme Court?</p><span class="options"><input type="radio" name="SCJ" value="F1" class="Q23"> John Roberts</span>
+        <span class="options"><input type="radio" name="SCJ" value="F2" class="Q23"> Brett Kavanaugh</span> <span class="options"><input type="radio" name="SCJ" value="C" class="Q23"> Neil Gorsuch</span>
+        <span class="options"><input type="radio" name="SCJ" value="F3" class="Q23"> Samuel Alito</span>
+        
+        <p class="Zmb mt">24) Who is my favorite person Trump nominated to be on his cabinet?</p><span class="options"><input type="radio" name="TrumpNom" value="F1" class="Q24"> Betsy Devos</span>
+        <span class="options"><input type="radio" name="TrumpNom" value="C" class="Q24"> Scott Pruitt</span> <span class="options"><input type="radio" name="TrumpNom" value="F2" class="Q24"> James Mattis</span>
+        <span class="options"><input type="radio" name="TrumpNom" value="F3" class="Q24"> Ben Carson</span>
+        
+        <p class="Zmb mt">25) Who is my favorite person in the House of Representatives/Senate?</p><span class="options"><input type="radio" name="favCongress" value="C" class="Q25"> Thomas Massie/Rand Paul</span>
+        <span class="options"><input type="radio" name="favCongress" value="F1" class="Q25"> Paul Gosar/Ted Cruz</span> <span class="options"><input type="radio" name="favCongress" value="F2" class="Q25"> Maxine Waters/Kamala Harris</span>
+        <span class="options"><input type="radio" name="favCongress" value="F3" class="Q25"> Justin Amash/Tim Scott</span> 
+    </div>
+    <div class="buttons">
+      <a href="#" class="previous" id="A5">&laquo; Previous</a>
+      <a href="#" class="next" id="A6">Next &raquo;</a>
+    </div>
+    </div>
+    <div class="container" id="C5">
+      <h1 id="T3">Section 4: Miscellaneous</h1>
+      <div id="questions">
+        <p class="Zmb mt">26) Is "Krishna" my middle name?</p><span class="options"><input type="radio" name="mName" value="F1" class="Q26"> Yes</span>
+        <span class="options"><input type="radio" name="mName" value="C" class="Q26"> No</span> 
+
+        <p class="Zmb mt">27) What is my favorite color?</p><span class="options"><input type="radio" name="color" value="F1" class="Q27"> Blue</span>
+        <span class="options"><input type="radio" name="color" value="C" class="Q27"> Red</span> <span class="options"><input type="radio" name="color" value="F2" class="Q27"> Yellow</span>
+        <span class="options"><input type="radio" name="color" value="F3" class="Q27"> Green</span>
+      
+        <p class="Zmb mt">28) What is my favorite type of foreign food?</p><span class="options"><input type="radio" name="fFood" value="F1" class="Q28"> Oriental</span>
+        <span class="options"><input type="radio" name="fFood" value="C" class="Q28"> Italian</span> <span class="options"><input type="radio" name="fFood" value="F2" class="Q28"> Latin American</span>
+        <span class="options"><input type="radio" name="fFood" value="F3" class="Q28"> Indian</span>
+      
+        <p class="Zmb mt">29) What is my <b><u>LEAST</u></b> favorite type of foreign food?</p><span class="options"><input type="radio" name="lFavFood" value="C" class="Q29"> Oriental</span>
+        <span class="options"><input type="radio" name="lFavFood" value="F1" class="Q29"> Italian</span> <span class="options"><input type="radio" name="lFavFood" value="F2" class="Q29"> Latin American</span>
+        <span class="options"><input type="radio" name="lFavFood" value="F3" class="Q29"> Indian</span>
+
+        <p class="Zmb mt">30) Who is my favorite superhero?</p><span class="options"><input type="radio" name="SH" value="F1" class="Q30"> Iron Man</span>
+        <span class="options"><input type="radio" name="SH" value="C" class="Q30"> Batman</span> <span class="options"><input type="radio" name="SH" value="F2" class="Q30"> Spiderman</span>
+        <span class="options"><input type="radio" name="SH" value="F3" class="Q30"> Superman</span>
+
+        
+    </div>
+    <div class="buttons">
+      <a href="#" class="previous" id="A7">&laquo; Previous</a>
+      <a href="#" class="next" id="A8">Next &raquo;</a>
+    </div>
+    </div>
+    <div class="container" id="C6">
+        <h1 id="T3">Score</h1>
+        <div id="score">
+  
+          <p class="sectionScore" id="Sec1">Section 1-Music: <span id="correct1"></span>/5</p>
+  
+          <p class="sectionScore" id="Sec2">Section 2-Movies & TV: <span id="correct2"></span>/10</p>
+        
+          <p class="sectionScore" id="Sec3">Section 3-History & Politics: <span id="correct3"></span>/10</p>
+        
+          <p class="sectionScore" id="Sec4">Section 4-Miscellaneous: <span id="correct4"></span>/5</p>
+  
+          <p class="sectionScore" id="total">Total: <span id="totalScore"></span>/30- <span id="percentage"></span></p>
+  
+          <p class="sectionScore" id="text">If you want to know what you got right or wrong, ask me and make sure to 
+              screenshot this screen and the previous screens captioning it with you what phone you have.</p>
+  
+      </div>
+  
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>

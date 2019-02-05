@@ -1,0 +1,137 @@
+#N1{
+    background-color: blue;
+    font-size: 150%
+  }
+  #H1{
+    color: white;
+    /* font-family: "Comic Sans MS", cursive, sans-serif; */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    /* padding-top: 16px;
+    padding-bottom: 16px; */
+  }
+  body{
+    background-color: red;
+  }
+  #C1{
+    background-color: white;
+    padding-bottom: 60px;
+  }
+  #T1{
+    text-align: center;
+    padding-top: 100px;
+    /* padding-bottom: 150px; */
+  }
+  #T1{
+    color: red;
+  }
+  #I1{
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  #B1{
+    color: red;
+    background-color: white;
+    /* width: 100px; */
+    border-radius: 0px;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    /* padding-bottom: 25px; */
+    }
+  #B1:hover {
+    color: white;
+    background-color: red;
+    }
+
+  #T2{
+      color: blue;
+      text-align: center;
+      padding-top: 25px;
+      /* margin-top: 15px; */
+  }
+  p{
+    font-weight: 500;
+  }
+  #questions{
+    margin: 25px 30px;
+    color: red;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  #I2, #I3{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    margin-left: 10px;
+  }
+
+  /* .options{
+    width: 75px;
+  } */
+
+  .options{
+    display: block;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+  }
+
+  .Zmb{
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+  #T3{
+  color: red;
+  text-align: center;
+  /* padding-top: 25px; */
+  /* margin-top: 15px; */
+  }
+
+  .mt{
+    margin-top: 25px;
+  }
+
+  #B2{
+    color: red;
+    background-color: white;
+    /* width: 100px; */
+    border-radius: 0px;
+    /* display: block; */
+    margin: 50px auto;
+    width: 150px;
+    /* padding-bottom: 25px; */
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  #B2:hover {
+    color: white;
+    background-color: red;
+  }
+  @media (max-width: 575.98px) { 
+
+    #I2{
+      display: block;
+      width: 100%;
+      margin-left: 0px;
+    }
+
+    .options{
+      margin-left: 10px;
+    }
+
+  }
+
+
+
+    @media (min-width: 768px) { 
+        
+        #I1{
+            margin: 50px auto;
+            margin-bottom: 50px;
+            width: 50%
+        }
+
+     }
